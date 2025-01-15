@@ -45,7 +45,7 @@ export default function Register() {
             body: JSON.stringify({
                 fullName: username,
                 username: email,
-                password,
+                password: password,
             }),
         });
         // Check the response for OK
