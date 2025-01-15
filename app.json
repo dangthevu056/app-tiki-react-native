@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "App_Ban_Hang_User",
+    "slug": "App_Ban_Hang_User",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nguyendulap.App_Ban_Hang_User",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e0744dcd-1de8-4055-a84b-15bec5e5f8e7"
+      }
+    },
+    "plugins": [
+      "expo-build-properties"
+    ]
+  }
+}
